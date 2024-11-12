@@ -1,0 +1,16 @@
+name: base
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - dask
+  - dask-jobqueue
+  - jupyter
+  - matplotlib
+  - numpy
+  - pandas
+  - numba
+  - h5py
+  - mimesis
+  - slurm
